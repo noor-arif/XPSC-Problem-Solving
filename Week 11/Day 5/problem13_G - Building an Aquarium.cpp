@@ -16,7 +16,7 @@ void Solve()
     while (l < r - 1)
     {
         ll total = 0;
-        ll mid = l + (r - 1) / 2;
+        ll mid = l + (r - l) / 2;
         for (ll i = 0; i < n; i++)
         {
             if (a[i] < mid)
